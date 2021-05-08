@@ -1,0 +1,7 @@
+{
+  "name": "Blockchain Assignment Naman",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "solc": "^0.6.7"
+  }
+}
