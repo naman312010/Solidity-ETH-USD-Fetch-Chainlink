@@ -23,7 +23,7 @@
 //
 // const fs = require('fs');
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-const mnemonic = "endless siege suffer solid fabric actress leave vintage master twist taxi joke";
+const mnemonic = "YOUR ACCOUNT MNEMONIC";
 
 module.exports = {
   networks: {
@@ -34,7 +34,7 @@ module.exports = {
      },
     rinkeby: {
       provider: function() {
-        return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/9b7d96f8d7a5417caa1bf1a882b33d26")
+        return new HDWalletProvider(mnemonic, "YOUR RINKEBY PROJECT ID")
       },
       network_id: 4
     }
